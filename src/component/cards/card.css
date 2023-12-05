@@ -65,6 +65,23 @@ line-height: 30px; /* 150% */
     background: linear-gradient(0deg, #23212B 0%, #23212B 100%), #1C1A24;
     padding:16px;
 }
+.card_img_text{
+color:  #757575;
+font-family: Inter;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 20px;
+}
+.bold{
+color:  #FFF;
+font-family: Inter;
+font-size: 14px;
+font-style: normal;
+font-weight: 500;
+line-height: 20px;
+margin-left: 10px;
+}
 .card_img_wrapper{
     width: 298px;
     height: 298px;
@@ -79,7 +96,7 @@ line-height: 30px; /* 150% */
 .card_text_header{
     align-self: stretch;
     color: #FFF;
-font-family: Switzer;
+font-family: Segoe UI;
 font-size: 20px;
 font-style: normal;
 font-weight: 500;
@@ -93,4 +110,25 @@ font-size: 14px;
 font-style: normal;
 font-weight: 400;
 line-height: 20px; /* 142.857% */
+}
+.card_link{
+    background: transparent;
+    border: none;
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    justify-content: center;
+    gap: 10px;
+}
+.card_link a{
+    text-decoration: none;
+    color:  #704EF4;
+    font-family: Segoe UI;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 20px;
+}
+.card_svg{
+    cursor: pointer;
 }

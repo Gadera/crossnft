@@ -23,7 +23,17 @@ const Main = () => {
 <svg xmlns="http://www.w3.org/2000/svg" width="209" height="217" viewBox="0 0 209 217" fill="none">
   <path d="M1 1H56.43L132.1 111.339L132.23 111.53L205.67 218.604L207.49 221.261L138.72 312.993L130.21 324.341H1V218.604V109.802V1Z" stroke="#24212F" stroke-miterlimit="10"/>
 </svg>
-
+<svg xmlns="http://www.w3.org/2000/svg" width="92" height="204" viewBox="0 0 92 204" fill="none">
+  <path d="M90.5 203L1.5 58L34.5 1" stroke="url(#paint0_linear_62_1472)" stroke-width="2"/>
+  <defs>
+    <linearGradient id="paint0_linear_62_1472" x1="46" y1="0.999999" x2="91" y2="169.5" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#704EF4"/>
+      <stop offset="0.157226" stop-color="#704EF4" stop-opacity="0.3"/>
+      <stop offset="0.44297" stop-color="#704EF4" stop-opacity="0.2"/>
+      <stop offset="1" stop-color="#704EF4" stop-opacity="0.03"/>
+    </linearGradient>
+  </defs>
+</svg>
 <svg xmlns="http://www.w3.org/2000/svg" width="304" height="219" viewBox="0 0 304 219" fill="none">
   <path d="M302.55 0.439209L227 107.731L302.39 218H151.49L75.7397 107.731L4.50969 218H0.429688" stroke="#24212F" stroke-miterlimit="10"/>
 </svg>

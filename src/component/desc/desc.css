@@ -37,6 +37,7 @@ line-height: 48px; /* 114.286% */
 letter-spacing: -0.4px;
 }
 .desc_other{
+    max-width: 50%;
     color: #FFF;
 text-align: center;
 font-family: Inter;
