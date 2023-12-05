@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import './App.css'
-import { Header, Main, Card, Desc} from './component/index'
+import { Header, Main, Card, Desc, Showcase} from './component/index'
 
 function App() {
   return (
@@ -9,6 +9,7 @@ function App() {
      <Main />
      <Card />
      <Desc />
+     <Showcase />
     </div>
   )
 }
