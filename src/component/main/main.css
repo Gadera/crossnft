@@ -1,20 +1,23 @@
 .main_container{
     width: 100%;
-    height: 100%;
+    height: 80%;
+    overflow: hidden;
     background: linear-gradient(180deg, #1C1A24 0%, #1C1A24 15.63%, #1C1A24 39.58%, #1C1A24 63.02%, #1C1A24 100%);
     position: relative;
+
 }
 .main_wrapper{
     position: absolute;
     width: 50%;
     height: 50%;
     left: 50%;
-    top: 40%;
+    top: 50%;
     transform: translate(-50%, -50%);
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    /* background: red; */
 
 }
 .main_btn{
