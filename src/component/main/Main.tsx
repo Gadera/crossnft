@@ -32,6 +32,14 @@ const Main = () => {
 </svg>
         <div className="main_wrapper">
             <button className="main_btn">Multiple blockchain support</button>
+            <div className="main_text_container">
+                <h1 className="text_1">Cross chain NFT minting</h1>
+                <h1 className="text_2">Complete user management.</h1>
+            </div>
+                 <p className="main_text">Clerk is more than a "sign-in box." Integrate complete user management UIs and</p>
+                <p className="main_text">APIs, purpose-built for React, Next.js, and the Modern Web</p>
+
+                <button className="main_btn_other">View Demo</button>
         </div>
 </div>
   )
