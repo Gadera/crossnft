@@ -41,6 +41,7 @@ const Footer = () => {
                 </div>
             </div>
             <div className="last_footer">
+                <div className="underline"></div>
                 <p className="last">Copyright © 2023 NFT lab</p>
             </div>    
         </div>
