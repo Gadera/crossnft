@@ -4,4 +4,5 @@ import Card from './cards/Card'
 import Desc from './desc/Desc'
 import Showcase from './showcase/Showcase'
 import Security from './security/Security'
-export { Header, Main, Card, Desc, Showcase, Security }
+import Work from './works/Work'
+export { Header, Main, Card, Desc, Showcase, Security, Work}
