@@ -11,7 +11,7 @@ const Showcase = () => {
     <path d="M2.33337 16.9167L13.5826 22.5413C13.7357 22.6178 13.8122 22.6561 13.8925 22.6711C13.9636 22.6845 14.0365 22.6845 14.1076 22.6711C14.1879 22.6561 14.2644 22.6178 14.4174 22.5413L25.6667 16.9167M2.33337 11.0833L13.5826 5.45869C13.7357 5.38217 13.8122 5.34391 13.8925 5.32885C13.9636 5.31551 14.0365 5.31551 14.1076 5.32885C14.1879 5.34391 14.2644 5.38217 14.4174 5.45869L25.6667 11.0833L14.4174 16.708C14.2644 16.7845 14.1879 16.8227 14.1076 16.8378C14.0365 16.8511 13.9636 16.8511 13.8925 16.8378C13.8122 16.8227 13.7357 16.7845 13.5826 16.708L2.33337 11.0833Z" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
     </svg>
     <h1 className="showcase_card_header">Payment Integration</h1>
-    <p className="showcase_card_text">Lorem Ipsum has been the industry's standard dummy text ever since the </p>
+    <p className="showcase_card_text">Pay for minting services using native token and other cryptocurrencies</p>
     <svg width="312" height="675" viewBox="0 0 412 475" fill="none" xmlns="http://www.w3.org/2000/svg">
 <g filter="url(#filter0_i_1_1389)">
 <path d="M359.886 144.697C359.886 146.2 359.495 147.677 358.752 148.984C358.01 150.291 356.94 151.383 355.648 152.152L292.303 189.87L217.888 234.244C216.887 234.839 215.778 235.231 214.626 235.398C214.626 235.398 203.799 237.284 200.16 237.417C197.691 237.403 195.27 236.729 193.149 235.465L120.929 192.311L56.3201 153.594C55.0387 152.819 53.9788 151.727 53.2432 150.423C52.5075 149.119 52.121 147.647 52.121 146.15C52.121 144.653 52.5075 143.181 53.2432 141.877C53.9788 140.573 55.0387 139.481 56.3201 138.706L192.993 55.9478C197.157 53.4316 201.929 52.1041 206.794 52.1094H211.231C214.123 52.1071 216.964 52.8727 219.463 54.3281L352.586 132.671C354.517 133.807 356.169 135.362 357.421 137.22C358.673 139.078 359.492 141.193 359.819 143.41C359.876 143.836 359.898 144.267 359.886 144.697Z" fill="#24212E"/>
@@ -94,9 +94,9 @@ const Showcase = () => {
     </svg>
     <h1 className="showcase_card_header">Expanded Platform</h1>
 
-    <p className="showcase_card_text">Lorem Ipsum has been the industry's standard dummy text ever since the </p>
+    <p className="showcase_card_text">Mint across multiple chain with your unique attributes, metadata and customizable features</p>
     
-  <svg width="280" height="680" viewBox="0 0 522 600" fill="none" xmlns="http://www.w3.org/2000/svg" xlinkHref="http://www.w3.org/1999/xlink">
+  <svg width="780" height="780" viewBox="400 260 482 250" fill="none" xmlns="http://www.w3.org/2000/svg" xlinkHref="http://www.w3.org/1999/xlink">
 <g filter="url(#filter0_i_1_1404)">
 <rect x="139.01" y="93.0715" width="560" height="560" rx="280" transform="rotate(15 139.01 93.0715)" fill="url(#pattern0)"/>
 <rect x="139.364" y="93.6839" width="559" height="559" rx="279.5" transform="rotate(15 139.364 93.6839)" stroke="#1C1A24"/>
