@@ -1,6 +1,6 @@
 .footer_container{
     width: 100%;
-    height: 40%;
+    height: 50%;
   background: linear-gradient(180deg, #1C1A24 0%, #1C1A24 15.63%, #1C1A24 39.58%, #1C1A24 63.02%, #1C1A24 100%);
   display: flex;
   flex-direction: column;
