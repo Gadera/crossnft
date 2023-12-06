@@ -121,15 +121,15 @@ import './work.css'
         <p className="work_text">Pay for minting services using native token and other cryptocurrencies</p>
         </div>
         <div className="work_content">
-        <h3 className="work_text_header">Choose Chain</h3>
+        <h3 className="work_text_header">Receivers address</h3>
         <p className="work_text">Pay for minting services using native token and other cryptocurrencies</p>
         </div>
         <div className="work_content">
-        <h3 className="work_text_header">Choose Chain</h3>
+        <h3 className="work_text_header">Transaction fee</h3>
         <p className="work_text">Pay for minting services using native token and other cryptocurrencies</p>
         </div>
         <div className="work_content">
-        <h3 className="work_text_header">Choose Chain</h3>
+        <h3 className="work_text_header">That’s all!</h3>
         <p className="work_text">Pay for minting services using native token and other cryptocurrencies</p>
         </div>
         </div>

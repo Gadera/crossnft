@@ -24,11 +24,12 @@ line-height: 117.5%; /* 49.35px */
     gap: 3.5rem;
 }
 .work_content{
-    display: flex;
-    align-items: center;
-    align-content: center;
+        display: flex;
+    /* align-items: center; */
+    /* align-content: center; */
     flex-direction: column;
-    text-align: center;
+    gap: 1rem;
+    /* text-align: center; */
 }
 .work_text_header{
     color: #C3B7F4;
