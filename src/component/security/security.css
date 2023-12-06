@@ -1,0 +1,45 @@
+.security_container{
+    width: 100%;
+    height: 80%;
+    background: linear-gradient(180deg, #1C1A24 0%, #1C1A24 15.63%, #1C1A24 39.58%, #1C1A24 63.02%, #1C1A24 100%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 3rem;
+}
+.security_text{
+   
+}
+.security_small{
+    color:  #704EF4;
+    text-align: center;
+    font-family: Inter;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 16px; /* 133.333% */
+    letter-spacing: 0.72px;
+    text-transform: uppercase;
+}
+.security_head{
+    color: #C3B7F4;
+text-align: center;
+font-family: Segoe UI;
+font-size: 42px;
+font-style: normal;
+font-weight: 600;
+line-height: 117.5%; /* 49.35px */
+}
+.security_main_text{
+    color: #FFF;
+    text-align: center;
+    font-family: Segoe UI;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px; /* 150% */
+}
+.security_svg{
+    
+}
