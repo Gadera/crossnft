@@ -4,7 +4,7 @@ import './work.css'
   return (
     <div className='work_container'>
         <h1 className='work_header'>How It Works</h1>
-  <svg width="926" height="64" viewBox="0 0 926 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <svg width="926" height="64" viewBox="0 0 926 64" fill="none" xmlns="http://www.w3.org/2000/svg" className='work_svg'> 
 <g filter="url(#filter0_i_102_762)">
 <rect x="0.739746" width="63.8801" height="63.7586" rx="20.2152" fill="#23212B"/>
 </g>

@@ -50,3 +50,27 @@ border-radius: 16px;
 border: 1px solid rgba(195, 183, 244, 0.10);
 background: linear-gradient(0deg, #23212B 0%, #23212B 100%), lightgray 0% 0% / 100px 100px repeat, #3A3746;
 }
+
+
+@media screen and (max-width: 780px) {
+
+    .showcase_container{
+        height: auto;
+        gap: 2rem;
+    }
+    .showcase_header{
+    margin-top: 20px;
+    font-size: 30px;
+    line-height: 117.5%; /* 49.35px */
+    }
+    .showcase_wrapper{
+        gap: 1rem;
+    }
+    .showcase_card_header{
+    font-size: 20px;
+    }
+    .showcase_card_text{
+       
+        font-size: 12px;
+    }
+}

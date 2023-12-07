@@ -50,3 +50,34 @@ letter-spacing: -0.16px;
 .decs_svg{
     flex: 2;
 }
+
+@media screen and (max-width: 780px) {
+    .desc_container{
+        height: auto;
+        margin-top: 20px;
+    }
+    .desc_header{
+        font-size: 12px;
+        line-height: 15px; /* 142.857% */
+        letter-spacing: 1.20px;
+    }
+    .desc_text{
+    font-size: 25px;
+    line-height: 35px; 
+    margin-top: 10px;/* 114.286% */
+    }
+    .desc_other{
+        max-width: 90%;
+        color: #FFF;
+        font-size: 12px;
+        line-height: 25px; /* 175% */
+    }
+    .desc_svg{
+        flex: 1;
+        margin-top: 20px;
+    }
+    .get_svg{
+        width: 100%;
+        height: 100%;
+    }
+}

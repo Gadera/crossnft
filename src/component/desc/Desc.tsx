@@ -11,7 +11,7 @@ const Desc = () => {
 </div>
 
 <div className="decs_svg">
-<svg width="1021" height="347" viewBox="0 0 1021 347" fill="none" xmlns="http://www.w3.org/2000/svg">
+<svg width="1021" height="347" viewBox="0 0 1021 347" fill="none" xmlns="http://www.w3.org/2000/svg" className='get_svg'>
 <g filter="url(#filter0_di_1_1423)">
 <path d="M850.78 122.48H822.45L808.29 97.95L822.45 73.42H850.78L864.94 97.95L850.78 122.48Z" stroke="#24242E" stroke-miterlimit="10" shape-rendering="crispEdges"/>
 </g>

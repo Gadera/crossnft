@@ -54,3 +54,13 @@ line-height: 117.5%; /* 63.45px */
     align-items: center;
     justify-content: center;
 }
+@media screen and (max-width: 780px) {
+    .cta_container{
+        height: 80%;
+    }
+    .cta_wrapper{
+        width: 90%;
+        height: 90%;
+    }
+    
+}

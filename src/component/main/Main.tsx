@@ -3,7 +3,7 @@ import './main.css'
 const Main = () => {
   return (
     <div className='main_container'>
-        <svg xmlns="http://www.w3.org/2000/svg" width="68" height="183" viewBox="0 0 68 183" fill="none">
+        <svg xmlns="http://www.w3.org/2000/svg" width="68" height="183" viewBox="0 0 68 183" fill="none" className='main_svg'>
   <path d="M66.5 182L2 67L44 1" stroke="url(#paint0_linear_102_652)" stroke-width="2"/>
   <defs>
     <linearGradient id="paint0_linear_102_652" x1="11.8542" y1="1" x2="73.5131" y2="161.54" gradientUnits="userSpaceOnUse">

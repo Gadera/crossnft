@@ -132,3 +132,32 @@ line-height: 20px; /* 142.857% */
 .card_svg{
     cursor: pointer;
 }
+
+@media screen and (max-width: 780px) {
+    .card_container{
+        gap: 2rem; /* justify-content: center; */
+    }
+    .card_text_wrapper{
+        gap: .5rem;
+    }
+    .card_header{
+    font-size: 32px;
+    line-height: 100.5%; /* 49.35px */ 
+    }
+    .card_text{
+    font-size: 15px;
+    line-height: 20px; 
+    text-align: center;
+    }
+    .main_card{
+      align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+        align-items: center;
+        gap: 2rem;
+    }
+    .card_card{
+        width: 90%;
+        height: 90%;
+    }
+}

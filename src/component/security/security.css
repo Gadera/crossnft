@@ -43,3 +43,20 @@ line-height: 117.5%; /* 49.35px */
 .security_svg{
     
 }
+
+@media screen and (max-width: 780px) {
+    .security_container{
+    height: auto;
+    gap: 2rem;
+}
+.security_head{
+font-size: 30px;
+}
+.security_main_text{
+    font-size: 12px;
+}
+.security_svg{
+        width: 100%;
+        height: 100%;
+}
+}
