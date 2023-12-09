@@ -1,5 +1,6 @@
 import React from 'react'
 import './main.css'
+import { Link } from 'react-router-dom'
 const Main = () => {
   return (
     <div className='main_container'>
@@ -104,7 +105,7 @@ const Main = () => {
                  <p className="main_text">Explore a decentralized world where NFT minting transcends boundaries-</p>
                 <p className="main_text">Redefining ownership, security and accessibility.</p>
 
-                <button className="main_btn_other">Launch App 
+                <Link to='/launch_app/transaction'><button className="main_btn_other">Launch App 
                 <svg xmlns="http://www.w3.org/2000/svg" width="25" height="24" viewBox="0 0 25 24" fill="none">
   <path  d="M9.5 6.5C9.5 6.32741 9.36009 6.1875 9.1875 6.1875C8.15196 6.1875 7.3125 5.34804 7.3125 4.3125C7.3125 4.13991 7.17259 4 7 4C6.82741 4 6.6875 4.13991 6.6875 4.3125C6.6875 5.34804 5.84804 6.1875 4.8125 6.1875C4.63991 6.1875 4.5 6.32741 4.5 6.5C4.5 6.67259 4.63991 6.8125 4.8125 6.8125C5.84804 6.8125 6.6875 7.65196 6.6875 8.6875C6.6875 8.86009 6.82741 9 7 9C7.17259 9 7.3125 8.86009 7.3125 8.6875C7.3125 7.65196 8.15196 6.8125 9.1875 6.8125C9.36009 6.8125 9.5 6.67259 9.5 6.5Z" fill="url(paint0_linear_62_1465)"/>
   <path d="M9.5 6.5C9.5 6.32741 9.36009 6.1875 9.1875 6.1875C8.15196 6.1875 7.3125 5.34804 7.3125 4.3125C7.3125 4.13991 7.17259 4 7 4C6.82741 4 6.6875 4.13991 6.6875 4.3125C6.6875 5.34804 5.84804 6.1875 4.8125 6.1875C4.63991 6.1875 4.5 6.32741 4.5 6.5C4.5 6.67259 4.63991 6.8125 4.8125 6.8125C5.84804 6.8125 6.6875 7.65196 6.6875 8.6875C6.6875 8.86009 6.82741 9 7 9C7.17259 9 7.3125 8.86009 7.3125 8.6875C7.3125 7.65196 8.15196 6.8125 9.1875 6.8125C9.36009 6.8125 9.5 6.67259 9.5 6.5Z" fill="white" fill-opacity="0.5"/>
@@ -131,6 +132,7 @@ const Main = () => {
   </defs>
 </svg>
                 </button>
+                </Link>
         </div>
 </div>
   )

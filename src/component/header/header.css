@@ -6,6 +6,10 @@
     height: 69px;
     padding: 26px 15px;
     border-bottom: 1px solid rgba(195, 183, 244, 0.20);
+    /* position: fixed;
+    top: 0;
+    left: 0; */
+   
 }
 .header_text a{
     color: #704EF4;
