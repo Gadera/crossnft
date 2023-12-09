@@ -1,5 +1,6 @@
 import React from 'react'
 import './footer.css'
+import { Link } from 'react-router-dom'
 import '../header/header.css'
 const Footer = () => {
   return (
@@ -7,7 +8,7 @@ const Footer = () => {
       <div className="footer__wrapper">
         <div className="footer_content">
           <h2 className="header_text">
-            <a href="#home">CrossNFTL Lab</a>
+            <Link to='/' className='link_link'>CrossNFTL Lab</Link>
           </h2>
           <p className="footer_text">
             CrossNFT Lab is a defi platform that redefines NFT minting by

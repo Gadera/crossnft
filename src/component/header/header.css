@@ -45,6 +45,24 @@ ul{
 /* .list_btn:hover{
     background: #1C1A24;
 } */
+.header_btn{
+    display: flex;
+width: 209px;
+height: 48px;
+padding: 10px;
+justify-content: center;
+align-items: center;
+gap: 10px;
+    border-radius: 100px;
+    border: 1px solid #403C50;
+    background: var(--Purple, #704EF4);
+    color: #FFF;
+font-family: Segoe UI;
+font-size: 18px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
 
 @media screen and (max-width: 780px){
 
@@ -52,6 +70,9 @@ ul{
         justify-content: space-between;
         height: 50px;
         padding: 2px 10px;
+    }
+    .header_btn{
+        display: none;
     }
     .list_container{
         display: none;
