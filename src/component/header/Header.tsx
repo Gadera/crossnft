@@ -4,8 +4,9 @@ import { Link } from 'react-router-dom'
 import Bounce from 'react-reveal/Bounce';
 const Header = () => {
   return (
-    <Bounce left>
+    
     <div className='header_container'>
+        <Bounce left>
         <h2 className='header_text'><Link to="/"> CrossNFTL Lab</Link></h2>
         <ul className='list_container'>
             <li className='list'>
@@ -27,8 +28,9 @@ const Header = () => {
         />
         
         </button>
+        </Bounce>
     </div>
-    </Bounce>
+    
   )
 }
 

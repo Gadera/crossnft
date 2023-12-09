@@ -3,8 +3,9 @@ import './card.css'
 import Slide from 'react-reveal/Slide';
 const Card = () => {
   return (
-    <Slide right>
+   
     <div className='card_container'>
+       <Slide right>
         <div className='card_text_wrapper'>
        <p className="card_top">OWNERSHIP</p>
        <h2 className="card_header">NFT Marketplace</h2>
@@ -69,8 +70,8 @@ const Card = () => {
 </button>
             </div>
         </div>
+        </Slide>
  </div>
- </Slide>
   )
 }
 export  default Card

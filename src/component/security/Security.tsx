@@ -3,8 +3,9 @@ import './security.css'
 import Slide from 'react-reveal/Slide';
  const Security = () => {
   return (
-    <Slide top>
+    
     <div className='security_container'>
+      <Slide top>
       <div className="security_text">
         <h2 className="security_small">PROTOCOLS</h2>
         <h2 className="security_head">Enhanced Security</h2>
@@ -560,9 +561,9 @@ Your assets remain fortified</p>
 </clipPath>
 </defs>
 </svg>
-
+</Slide>
       </div>
-      </Slide>
+    
   )
 }
 

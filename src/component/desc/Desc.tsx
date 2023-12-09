@@ -4,8 +4,9 @@ import Roll from 'react-reveal/Roll';
 
 const Desc = () => {
   return (
-    <Roll left>
+    
 <div className='desc_container'>
+<Roll left>
 <div className="desc_wrapper">
     <h3 className="desc_header">INTEROPERABILITY</h3>
     <h3 className="desc_text">Mint NFTs across multiple blockchains</h3>
@@ -488,8 +489,9 @@ const Desc = () => {
 </svg>
 
 </div>
+</Roll>
  </div>
- </Roll>
+
   )
 }
 

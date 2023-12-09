@@ -3,8 +3,9 @@ import './showcase.css'
 import LightSpeed from 'react-reveal/LightSpeed';
 const Showcase = () => {
   return (
-    <LightSpeed>
+   
     <div className='showcase_container'>
+       <LightSpeed>
     <h2 className="showcase_header">Why use CrossNft Lab?</h2>
 <div className="showcase_wrapper">
     <div className="showcase_item">
@@ -166,8 +167,9 @@ const Showcase = () => {
 </svg>
 </div>
     </div>
-    </div>
     </LightSpeed>
+    </div>
+    
   )
 }
 

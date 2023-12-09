@@ -6,8 +6,9 @@ import Flip from 'react-reveal/Flip';
 // width="1440" height="1087"
 const Cta = () => {
   return (
-    <Flip>
+   
     <div className='cta_container'>
+       <Flip top>
     <svg  width="100%" height="100%" className="glittering" viewBox="0 0 1440 1087" fill="none" xmlns="http://www.w3.org/2000/svg">
     <g transform="translate(200,30)">
 <path d="M2.17191 313.353L1.72836 314.026L2.05644 314.762L1.3833 314.319L0.646946 314.647L1.0905 313.974L0.76242 313.237L1.43556 313.681L2.17191 313.353Z" fill="white"/>
@@ -196,8 +197,9 @@ const Cta = () => {
 </svg>
                 </button></Link>
     </div>
-    </div>
     </Flip>
+    </div>
+    
   )
 }
 
