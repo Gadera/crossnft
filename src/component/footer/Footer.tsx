@@ -2,8 +2,11 @@ import React from 'react'
 import './footer.css'
 import { Link } from 'react-router-dom'
 import '../header/header.css'
+import Fade from 'react-reveal/Fade';
+
 const Footer = () => {
   return (
+    <Fade bottom>
     <div className="footer_container">
       <div className="footer__wrapper">
         <div className="footer_content">
@@ -89,6 +92,7 @@ const Footer = () => {
         <p className="last">Copyright © 2023 NFT lab</p>
       </div>
     </div>
+    </Fade>
   )
 }
 

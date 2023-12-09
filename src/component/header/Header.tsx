@@ -1,8 +1,10 @@
 import React from 'react'
 import './header.css'
 import { Link } from 'react-router-dom'
+import Bounce from 'react-reveal/Bounce';
 const Header = () => {
   return (
+    <Bounce left>
     <div className='header_container'>
         <h2 className='header_text'><Link to="/"> CrossNFTL Lab</Link></h2>
         <ul className='list_container'>
@@ -26,6 +28,7 @@ const Header = () => {
         
         </button>
     </div>
+    </Bounce>
   )
 }
 

@@ -1,8 +1,10 @@
 import React from 'react'
 import './main.css'
 import { Link } from 'react-router-dom'
+import Bounce from 'react-reveal/Bounce';
 const Main = () => {
   return (
+    <Bounce top>
     <div className='main_container'>
         <svg xmlns="http://www.w3.org/2000/svg" width="68" height="183" viewBox="0 0 68 183" fill="none" className='main_svg'>
   <path d="M66.5 182L2 67L44 1" stroke="url(#paint0_linear_102_652)" stroke-width="2"/>
@@ -135,6 +137,7 @@ const Main = () => {
                 </Link>
         </div>
 </div>
+</Bounce>
   )
 }
 

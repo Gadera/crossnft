@@ -1,7 +1,9 @@
 import React from 'react'
 import './card.css'
+import Slide from 'react-reveal/Slide';
 const Card = () => {
   return (
+    <Slide right>
     <div className='card_container'>
         <div className='card_text_wrapper'>
        <p className="card_top">OWNERSHIP</p>
@@ -68,6 +70,7 @@ const Card = () => {
             </div>
         </div>
  </div>
+ </Slide>
   )
 }
 export  default Card

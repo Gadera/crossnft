@@ -1,8 +1,10 @@
 import React from 'react'
 import './desc.css'
+import Roll from 'react-reveal/Roll';
 
 const Desc = () => {
   return (
+    <Roll left>
 <div className='desc_container'>
 <div className="desc_wrapper">
     <h3 className="desc_header">INTEROPERABILITY</h3>
@@ -487,6 +489,7 @@ const Desc = () => {
 
 </div>
  </div>
+ </Roll>
   )
 }
 

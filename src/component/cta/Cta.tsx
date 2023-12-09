@@ -2,9 +2,11 @@ import React from 'react'
 import './cta.css'
 import '../main/main.css'
 import { Link } from 'react-router-dom'
+import Flip from 'react-reveal/Flip';
 // width="1440" height="1087"
 const Cta = () => {
   return (
+    <Flip>
     <div className='cta_container'>
     <svg  width="100%" height="100%" className="glittering" viewBox="0 0 1440 1087" fill="none" xmlns="http://www.w3.org/2000/svg">
     <g transform="translate(200,30)">
@@ -195,6 +197,7 @@ const Cta = () => {
                 </button></Link>
     </div>
     </div>
+    </Flip>
   )
 }
 

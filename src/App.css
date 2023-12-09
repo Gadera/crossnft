@@ -10,6 +10,7 @@
   width: 100vw;
   height: 100vh;
   background: #1C1A24;
+  transition: all 5s ease-in-out;
 }
 /* .logo {
   height: 4em;

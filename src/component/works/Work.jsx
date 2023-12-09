@@ -1,7 +1,9 @@
 import React from 'react'
 import './work.css'
+import Rotate from 'react-reveal/Rotate';
  const Work = () => {
   return (
+    <Rotate top right>
     <div className='work_container'>
         <h1 className='work_header'>How It Works</h1>
   <svg width="926" height="64" viewBox="0 0 926 64" fill="none" xmlns="http://www.w3.org/2000/svg" className='work_svg'> 
@@ -134,6 +136,7 @@ import './work.css'
         </div>
         </div>
     </div>
+    </Rotate>
   )
 }
 

@@ -1,8 +1,12 @@
 import React from 'react'
 import '../App.css'
+import Fade from 'react-reveal/Fade';
+import Zoom from 'react-reveal/Zoom';
 const Trans = () => {
   return (
+    <Zoom>
     <div className='tans_container'>
+       <Fade>
            <div className="trans_wrapper">
               <div className="trans_header_container">
                 <h2 className="trans_header">Mint NFT</h2>
@@ -40,7 +44,9 @@ const Trans = () => {
               </section>
               <button className="tans_btn" type='submit'>Transact</button>
            </div>
+           </Fade>
     </div>
+    </Zoom>
   )
 }
 
