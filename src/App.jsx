@@ -1,4 +1,4 @@
-import { useState } from 'react'
+
 import './App.css'
 import {Header} from './component/index'
 import {Home, Trans }from './router/index'

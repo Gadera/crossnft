@@ -1,8 +1,8 @@
-import React from 'react'
+
 import './cta.css'
 import '../main/main.css'
 import { Link } from 'react-router-dom'
-import Flip from 'react-reveal/Flip';
+import  Flip  from 'react-reveal/Flip';
 // width="1440" height="1087"
 const Cta = () => {
   return (

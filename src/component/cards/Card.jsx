@@ -1,6 +1,6 @@
-import React from 'react'
+
 import './card.css'
-import Slide from 'react-reveal/Slide';
+import  Slide  from 'react-reveal/Slide';
 const Card = () => {
   return (
    

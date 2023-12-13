@@ -1,4 +1,4 @@
-import React from 'react'
+
 import { Main, Card, Desc, Showcase, Security, Work, Cta, Footer} from '../component/index'
 import '../App.css'
 const Home = () => {
