@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
-import { Web5 } from '@tbd54566975/web5';
-import { verifyCredential } from 'did-jwt-vc';
+// import { Web5 } from '@tbd54566975/web5';
+// import { verifyCredential } from 'did-jwt-vc';
 import './login.css';
 
 const Login = () => {
