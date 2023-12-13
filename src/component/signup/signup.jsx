@@ -1,7 +1,3 @@
-import React, { useState } from 'react';
-import { Web5 } from '@tbd54566975/web5';
-import './signup.css';
-
 const Signup = () => {
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState('');
@@ -9,14 +5,12 @@ const Signup = () => {
   const handleSignup = async () => {
     try {
       setLoading(true);
+      setError('');
 
-      // Generate a DID using Web5
       const { web5, did: myDid } = await Web5.connect();
-
-      // Save the generated DID to the user's account
       await saveDIDToUserAccount(myDid);
     } catch (err) {
-      setError('Error signing up');
+      setError('Error during signup. Please try again.'); 
     } finally {
       setLoading(false);
     }
@@ -24,7 +18,6 @@ const Signup = () => {
 
   const saveDIDToUserAccount = async (did) => {
     try {
-      // Make an API call to save the DID to the user's account
       const response = await fetch('/save-did', {
         method: 'POST',
         body: JSON.stringify({ did }),
@@ -35,19 +28,19 @@ const Signup = () => {
         throw new Error('Failed to save DID');
       }
 
-      
       const data = await response.json();
       console.log('DID saved successfully:', data);
-    } catch (error) {
       
+    } catch (error) {
       console.error('Error saving DID:', error);
+      setError('Failed to save DID. Please try again.'); 
     }
   };
 
   return (
     <div>
       <h2>Signup</h2>
-      {error && <p>{error}</p>}
+      {error && <p className="error-message">{error}</p>}
       <button onClick={handleSignup} disabled={loading}>
         {loading ? 'Signing up...' : 'Signup'}
       </button>
