@@ -1,6 +1,9 @@
 // types/react-reveal/index.d.ts
 /// <reference types="node" />
 
+declare module 'react-reveal' {
+  export const Zoom: React.FC;
+}
 /**
  * @typedef RevealProps
  *

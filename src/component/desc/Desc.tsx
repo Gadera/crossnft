@@ -1,7 +1,6 @@
 import React from 'react'
 import './desc.css'
 import Roll from 'react-reveal/Roll';
-
 const Desc = () => {
   return (
     
