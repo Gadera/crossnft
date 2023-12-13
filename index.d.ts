@@ -1,6 +1,6 @@
 // types/react-reveal/index.d.ts
 /// <reference types="node" />
-
+"declare module 'react-reveal';"
 /**
  * @typedef RevealProps
  *
