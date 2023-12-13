@@ -18,6 +18,9 @@ const Header = () => {
             <li className='list'>
                 <button className='list_btn'><Link to='/' className='list_link'>Support</Link></button>
             </li>
+            <li className='list'>
+                <button className='list_btn'><Link to='/profile' className='list_link'>Profile</Link></button>
+            </li>
         </ul>
         <button className='header_btn'>
         Connect Wallet

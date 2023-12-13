@@ -1,9 +1,9 @@
-import { useState } from 'react'
-import './App.css'
-import {Header} from './component/index'
-import {Home, Trans }from './router/index'
-import Zoom from 'react-reveal/Zoom'
-import { Route, Routes } from 'react-router-dom'
+
+import './App.css';
+import {Header} from './component/index';
+import {Home, Trans}from './router/index';
+import { Route, Routes } from 'react-router-dom';
+import Profile from './router/Profile';
 
 function App() {
   return (
@@ -12,7 +12,7 @@ function App() {
     <Routes>
      <Route path="/" element={<Home />} />
      <Route path='/launch_app/transaction' element={<Trans />}/>
-    {/* <Footer /> */}
+     <Route path='/launch_app/my_profile' element={<Profile did="YOUR_DID_VALUE" />} />    {/* <Footer /> */}
     </Routes>
     </>
   )
