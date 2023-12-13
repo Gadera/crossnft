@@ -1,0 +1,37 @@
+const express = require('express');
+const bodyParser = require('body-parser');
+
+const app = express();
+const port = 3001;
+
+app.use(bodyParser.json());
+
+// API endpoint to save the DID to the user's account
+app.post('/save-did', (req, res) => {
+  try {
+    const { did } = req.body;
+
+    // Save the DID to the user's account (example: in-memory storage)
+    // Replace this with your actual storage or database logic
+    const savedDID = saveDIDToUser(did);
+
+    // Send a response back to the client
+    res.json({ success: true, message: 'DID saved successfully', savedDID });
+  } catch (error) {
+    console.error('Error saving DID:', error);
+    res.status(500).json({ success: false, message: 'Internal Server Error' });
+  }
+});
+
+// Example in-memory storage for saved DIDs
+const userDIDs = new Set();
+
+function saveDIDToUser(did) {
+  // Save the DID to the in-memory storage
+  userDIDs.add(did);
+  return did;
+}
+
+app.listen(port, () => {
+  console.log(`Server is running on http://localhost:${port}`);
+});
