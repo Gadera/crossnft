@@ -2,7 +2,9 @@ import React from 'react'
 import './header.css'
 import { Link } from 'react-router-dom'
 import Bounce from 'react-reveal/Bounce';
+import { ConnectWallet, useAddress } from "@thirdweb-dev/react";
 const Header = () => {
+    const address = useAddress();
   return (
     
     <div className='header_container'>
@@ -22,7 +24,7 @@ const Header = () => {
                 <button className='list_btn'><Link to='/profile' className='list_link'>Profile</Link></button>
             </li>
         </ul>
-        <button className='header_btn'>
+        {/* <button className='header_btn'>
         Connect Wallet
         <img
             src="/walle.png"
@@ -30,7 +32,8 @@ const Header = () => {
             alt="header_wallet"
         />
         
-        </button>
+        </button> */}
+        <ConnectWallet />
         </Bounce>
     </div>
     
