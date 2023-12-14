@@ -1,11 +1,10 @@
 import React, { useState, useEffect } from 'react';
 import { Header } from './component/index';
 import { Routes, Route } from 'react-router-dom'
-import { Home, Trans, Login, Signin } from './router/index';
+import { Home, Trans } from './router/index';
 
 
-// import Login from '../component/login/Login.jsx';
-// import Signup from '../component/signup/Signup.jsx'
+
 import './App.css';
 
 function App() {

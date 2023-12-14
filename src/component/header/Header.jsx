@@ -6,6 +6,7 @@ import { ConnectWallet, useAddress } from "@thirdweb-dev/react";
 
 const Header = () => {
     const [clicked, setClicked] = useState(false);
+    const address = useAddress();
   
     const handleClick = () => {
       setClicked(!clicked);
@@ -38,7 +39,7 @@ const Header = () => {
               alt="header_wallet"
             />
           </button>
-          <ConnectWallet />
+          <ConnectWallet address={address}/>
         </Bounce>
         <div id='mobile' onClick={handleClick}>
           <i id="bar" className={clicked ? "fas fa-times" : "fas fa-bars"}></i>
