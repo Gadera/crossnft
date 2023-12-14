@@ -9,7 +9,7 @@ const Header = () => {
     
     <div className='header_container'>
         <Bounce left>
-        <h2 className='header_text'><Link to="/"> CrossNFTL Lab</Link></h2>
+        <h2 className='header_text'><Link to="/">CrossNFT Labs</Link></h2>
         <ul className='list_container'>
             <li className='list'>
                 <button className='list_btn'><Link to="/" className='list_link'>Home</Link></button>
@@ -33,7 +33,9 @@ const Header = () => {
         />
         
         </button> */}
-        <ConnectWallet />
+        <button className='header_btn'>
+        <ConnectWallet className="header_btn"/>
+        </button>
         </Bounce>
     </div>
     

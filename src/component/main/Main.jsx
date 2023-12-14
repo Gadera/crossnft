@@ -102,13 +102,15 @@ const Main = () => {
         <div className="main_wrapper">
             <button className="main_btn">Multiple blockchain support</button>
             <div className="main_text_container">
-                <h1 className="text_1">Seamless NFT minting</h1>
-                <h1 className="text_2">where cross-chains converge.</h1>
+                <h1 className="text_1">Your Gateway to the Multiverse: </h1>
+                <h1 className="text_2">Discover Cross-Chain NFTs
+</h1>
             </div>
-                 <p className="main_text">Explore a decentralized world where NFT minting transcends boundaries-</p>
-                <p className="main_text">Redefining ownership, security and accessibility.</p>
+                 <p className="main_text">Unlock the limitless potential of NFTs. Unleash the Power of Blockchain Interoperability: Mint, Trade, and Manage NFTs across Multiple Chains with ease.
+</p>
+                <p className="main_text">Experience freedom of ownership, unparalleled security, and global accessibility.</p>
 
-                <Link to='/launch_app/transaction'><button className="main_btn_other">Launch App 
+                <Link to='/launch_app/transaction'><button className="main_btn_other">Mint Cross-Chain NFT 
                 <svg xmlns="http://www.w3.org/2000/svg" width="25" height="24" viewBox="0 0 25 24" fill="none">
   <path  d="M9.5 6.5C9.5 6.32741 9.36009 6.1875 9.1875 6.1875C8.15196 6.1875 7.3125 5.34804 7.3125 4.3125C7.3125 4.13991 7.17259 4 7 4C6.82741 4 6.6875 4.13991 6.6875 4.3125C6.6875 5.34804 5.84804 6.1875 4.8125 6.1875C4.63991 6.1875 4.5 6.32741 4.5 6.5C4.5 6.67259 4.63991 6.8125 4.8125 6.8125C5.84804 6.8125 6.6875 7.65196 6.6875 8.6875C6.6875 8.86009 6.82741 9 7 9C7.17259 9 7.3125 8.86009 7.3125 8.6875C7.3125 7.65196 8.15196 6.8125 9.1875 6.8125C9.36009 6.8125 9.5 6.67259 9.5 6.5Z" fill="url(paint0_linear_62_1465)"/>
   <path d="M9.5 6.5C9.5 6.32741 9.36009 6.1875 9.1875 6.1875C8.15196 6.1875 7.3125 5.34804 7.3125 4.3125C7.3125 4.13991 7.17259 4 7 4C6.82741 4 6.6875 4.13991 6.6875 4.3125C6.6875 5.34804 5.84804 6.1875 4.8125 6.1875C4.63991 6.1875 4.5 6.32741 4.5 6.5C4.5 6.67259 4.63991 6.8125 4.8125 6.8125C5.84804 6.8125 6.6875 7.65196 6.6875 8.6875C6.6875 8.86009 6.82741 9 7 9C7.17259 9 7.3125 8.86009 7.3125 8.6875C7.3125 7.65196 8.15196 6.8125 9.1875 6.8125C9.36009 6.8125 9.5 6.67259 9.5 6.5Z" fill="white" fill-opacity="0.5"/>

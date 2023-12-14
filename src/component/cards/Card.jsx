@@ -9,7 +9,8 @@ const Card = () => {
         <div className='card_text_wrapper'>
        <p className="card_top">OWNERSHIP</p>
        <h2 className="card_header">NFT Marketplace</h2>
-        <p className="card_text">Explore, buy, sell and trade cross-chain NFTS-<br />Your gateway to the ultimate NFT experience</p>
+        <p className="card_text">Unleash the Full Potential of NFTs: Mint, Trade, 
+<br />and Manage Your Digital Assets Across Multiple Blockchains. Experience Freedom, Security, and Global Reach</p>
          </div>
         <div className="main_card">
             <div className="card_card">
