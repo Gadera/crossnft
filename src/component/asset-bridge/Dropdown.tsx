@@ -1,7 +1,5 @@
-import React, { useState, useEffect } from "react";
-// import dropdown from "../../assets/icon/chevron-down (1).svg";
+import React, { useState } from "react";
 import dropdown from "../../assets/icon/chevron-down.svg";
-import dropdownLight from "../../assets/icon/chevron-down (1).svg";
 import placeholder from "../../assets/3.svg";
 
 export interface Option {

@@ -1,6 +1,5 @@
 import { useState, useEffect } from "react";
 import "../App.css";
-import { useSnapshot } from "valtio";
 
 import { networksData } from "../data/networks";
 import { coinData } from "../data/coinData";
@@ -11,7 +10,6 @@ import icon from "../assets/layer.svg";
 import state from "../store";
 
 const Trans = () => {
-  const snap = useSnapshot(state);
   const [pay, setPay] = useState<number | undefined>(undefined);
   const [success, setSuccess] = useState<boolean>(false);
 
