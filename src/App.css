@@ -1,20 +1,24 @@
-*{
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  background: linear-gradient(180deg, #1C1A24 0%, #1C1A24 15.63%, #1C1A24 39.58%, #1C1A24 63.02%, #1C1A24 100%);
-  font-family: system-ui, "inter" -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-family: system-ui, "inter" -apple-system, BlinkMacSystemFont, "Segoe UI",
+    Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   /* overflow: hidden; */
 }
-.app_container{
+.app_container {
   width: 100vw;
   height: 100vh;
-  background: #1C1A24;
+  background: #1c1a24;
   overflow-x: hidden;
 }
-.home_container{
- width: 100%;
- height: 100%;
+.home_container {
+  width: 100%;
+  height: 100%;
   /* overflow-y: hidden; */
 }
 /* .logo {
@@ -32,73 +36,72 @@
   filter: drop-shadow(0 0 3em #61dafbaa);
 } */
 
-
 /* ***********************************************************trans syles ******************************************************/
 
-.tans_container{
+.tans_container {
   width: 100vw;
-  height: 80vh;
+  margin-bottom: 120px;
   display: flex;
   align-items: center;
   justify-content: center;
+  padding-top: 64px;
 }
 
-.trans_wrapper{
+.trans_wrapper {
   width: 512px;
-  height: 509px;
   border-radius: 8px;
-  border: 1px solid #433F53;
-  background: #23212B; 
+  border: 1px solid #433f53;
+  background: #23212b;
   padding: 20px;
 
   /* top: 50%; */
   /* right: 50%; */
   /* transform: translate(-50%, -50%); */
 }
-.trans_form_header{
-  color: #FFF;
-/* text-align: center; */
-font-family: Roboto;
-font-size: 14px;
-font-style: normal;
-font-weight: 400;
-line-height: 21px; /* 150% */
-letter-spacing: 0.131px;
+.trans_form_header {
+  color: #fff;
+  /* text-align: center; */
+  font-family: Roboto;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 21px; /* 150% */
+  letter-spacing: 0.131px;
 }
-.trans_header{
-  color: #FFF;
-font-variant-numeric: lining-nums proportional-nums;
-font-family: Segoe UI;
-font-size: 24px;
-font-style: normal;
-font-weight: 600;
-line-height: 42px; /* 175% */
+.trans_header {
+  color: #fff;
+  font-variant-numeric: lining-nums proportional-nums;
+  font-family: Segoe UI;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 42px; /* 175% */
 }
-.form_child{
+.form_child {
   /* width: 80%; */
   height: 48px;
   padding-right: 157.34px;
   align-items: center;
   border-radius: 8px;
-  background: #1C1A24;
+  background: #1c1a24;
 }
-.input_wrapper{
+.input_wrapper {
   padding: 16px 8px;
 
   border-radius: 12px;
-background: #353241;
+  background: #353241;
 }
-.input_wrapper_text{
-  color: #FFF;
-font-family: Roboto;
-font-size: 14px;
-font-style: normal;
-font-weight: 400;
-line-height: 21px; /* 150% */
-letter-spacing: 0.131px;
+.input_wrapper_text {
+  color: #fff;
+  font-family: Roboto;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 21px; /* 150% */
+  letter-spacing: 0.131px;
 }
-.tans_btn{
-  color: #FFF;
+.tans_btn {
+  color: #fff;
   font-variant-numeric: lining-nums proportional-nums;
   font-family: Segoe UI;
   font-size: 20px;
@@ -106,8 +109,8 @@ letter-spacing: 0.131px;
   font-weight: 700;
   line-height: normal;
   border-radius: 8px;
-background: var(--Purple, #704EF4);
-padding: 16px;
+  background: var(--Purple, #704ef4);
+  padding: 16px;
 }
 
 .profile_container {
