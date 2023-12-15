@@ -32,18 +32,13 @@ const Header = () => {
             </li>
           </ul>
           <button className='header_btn'>
-            Connect Wallet
-            <img
-              src="/walle.png"
-              className="header_wallet"
-              alt="header_wallet"
-            />
-          </button>
           <ConnectWallet address={address}/>
-        </Bounce>
-        <div id='mobile' onClick={handleClick}>
+          </button>
+          <div id='mobile' onClick={handleClick}>
           <i id="bar" className={clicked ? "fas fa-times" : "fas fa-bars"}></i>
         </div>
+        </Bounce>
+        
       </div>
     );
   };
