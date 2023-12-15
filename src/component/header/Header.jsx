@@ -16,7 +16,7 @@ const Header = () => {
       <div className='header_container'>
         <Bounce left>
           <h2 className='header_text'>
-            <Link to="/">CrossNFTL Lab</Link>
+            <Link to="/">CrossNFT Lab</Link>
           </h2>
           <ul id='list_container' className={clicked ? "list_container active" : "list_container"}>             <li className='list'>
               <button className='list_btn'><Link to="/" className='list_link'>Home</Link></button>
