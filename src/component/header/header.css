@@ -91,20 +91,20 @@ ul{
         position: fixed;
         top: 69px;
         right: -300px;
-        color: #C3B7F4;
-        background-color: white;
+        background-color: #403C50;
+  
         transition: 0.3s ease-in-out;
         z-index: 1;
     }
 
     #list_container.active{
         right: 16.5px;
-        background-color: #C3B7F4;
+  
 
     }
 
   .list {
-    margin-bottom: 25px;
+    margin-bottom: 10px;
   }
 
   #mobile {
