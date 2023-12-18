@@ -6,7 +6,7 @@ const Showcase = () => {
    
     <div className='showcase_container'>
        <LightSpeed>
-    <h2 className="showcase_header">Why use CrossNft Lab?</h2>
+    <h2 className="showcase_header">Why use CrossNFT Labs?</h2>
 <div className="showcase_wrapper">
     <div className="showcase_item">
     <svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" viewBox="0 0 28 28" fill="none">

@@ -1,7 +1,7 @@
-import React, { useState } from 'react';
-import './header.css';
-import { Link } from 'react-router-dom';
-import Bounce from 'react-reveal/Bounce';
+import React, { useState } from "react";
+import "./header.css";
+import { Link } from "react-router-dom";
+import Bounce from "react-reveal/Bounce";
 import { ConnectWallet, useAddress } from "@thirdweb-dev/react";
 
 
@@ -41,17 +41,7 @@ const Header = () => {
           <i id="bar" className={clicked ? "fas fa-times" : "fas fa-bars"}></i>
         </div>
       </div>
-    );
-  };
-  
+  );
+};
+
 export default Header;
-
-
-{/* <button className='header_btn'>
-            Connect Wallet
-            <img
-              src="/walle.png"
-              className="header_wallet"
-              alt="header_wallet"
-            />
-          </button> */}
