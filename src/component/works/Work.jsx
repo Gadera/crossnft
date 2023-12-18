@@ -120,28 +120,35 @@ import Rotate from 'react-reveal/Rotate';
 </svg>
 
   <div className="work_wrapper">
-    <div className="work_content">
-        <h3 className="work_text_header">Choose Chain</h3>
-        <p className="work_text">Pay for minting services using native token and other cryptocurrencies</p>
-        </div>
-        <div className="work_content">
-        <h3 className="work_text_header">Receivers address</h3>
-        <p className="work_text">Pay for minting services using native token and other cryptocurrencies</p>
-        </div>
-        <div className="work_content">
-        <h3 className="work_text_header">Transaction fee</h3>
-        <p className="work_text">Pay for minting services using native token and other cryptocurrencies</p>
-        </div>
-        <div className="work_content">
-        <h3 className="work_text_header">That’s all!</h3>
-        <p className="work_text">Pay for minting services using native token and other cryptocurrencies</p>
-        </div>
-        </div>
-        </Rotate>
-    </div>
+      <div className="work_content">
+          <h3 className="work_text_header">Create NFT Metadata</h3>
+          <p className="work_text">Generate unique metadata using your Decentralized Identifier (DID) and Data Wallet Network (DWN).</p>
+      </div>
+      <div className="work_content">
+          <h3 className="work_text_header">Choose Source Chain</h3>
+          <p className="work_text">Select the blockchain where your NFT will reside.</p>
+      </div>
+      <div className="work_content">
+          <h3 className="work_text_header">Choose Destination Chain</h3>
+          <p className="work_text">Select the blockchain where you want to mint your NFT.</p>
+      </div>
+      <div className="work_content">
+          <h3 className="work_text_header">Pay Fees</h3>
+          <p className="work_text">Pay for minting services using native tokens or other cryptocurrencies.</p>
+      </div>
+      <div className="work_content">
+          <h3 className="work_text_header">Connect Wallet</h3>
+          <p className="work_text">Connect your wallet securely for the transaction.</p>
+      </div>
+      <div className="work_content">
+          <h3 className="work_text_header">Monitor Progress</h3>
+          <p className="work_text">Keep track of the minting process and monitor progress.</p>
+      </div>
+      </div>
+      </Rotate>
+    </div> 
     
   )
 }
 
-
-export default Work
+export default Work;

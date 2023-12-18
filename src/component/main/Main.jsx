@@ -1,6 +1,6 @@
-import React from 'react'
-import './main.css'
-import { Link } from 'react-router-dom'
+import React from 'react';
+import './main.css';
+import { Link } from 'react-router-dom';
 import Bounce from 'react-reveal/Bounce';
 const Main = () => {
   return (

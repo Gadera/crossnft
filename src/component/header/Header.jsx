@@ -4,9 +4,11 @@ import { Link } from 'react-router-dom';
 import Bounce from 'react-reveal/Bounce';
 import { ConnectWallet, useAddress } from "@thirdweb-dev/react";
 
+
+
 const Header = () => {
     const [clicked, setClicked] = useState(false);
-    const address = useAddress();
+    const address = useAddress(); 
   
     const handleClick = () => {
       setClicked(!clicked);
@@ -16,7 +18,7 @@ const Header = () => {
       <div className='header_container'>
         <Bounce left>
           <h2 className='header_text'>
-            <Link to="/">CrossNFTL Lab</Link>
+            <Link to="/">CrossNFT Labs</Link>
           </h2>
           <ul id='list_container' className={clicked ? "list_container active" : "list_container"}>             <li className='list'>
               <button className='list_btn'><Link to="/" className='list_link'>Home</Link></button>
@@ -30,16 +32,10 @@ const Header = () => {
             <li className='list'>
               <button className='list_btn'><Link to='/profile' className='list_link'>Profile</Link></button>
             </li>
+            <li>
+            <ConnectWallet address={address} />
+            </li>
           </ul>
-          <button className='header_btn'>
-            Connect Wallet
-            <img
-              src="/walle.png"
-              className="header_wallet"
-              alt="header_wallet"
-            />
-          </button>
-          <ConnectWallet address={address}/>
         </Bounce>
         <div id='mobile' onClick={handleClick}>
           <i id="bar" className={clicked ? "fas fa-times" : "fas fa-bars"}></i>
@@ -49,3 +45,13 @@ const Header = () => {
   };
   
 export default Header;
+
+
+{/* <button className='header_btn'>
+            Connect Wallet
+            <img
+              src="/walle.png"
+              className="header_wallet"
+              alt="header_wallet"
+            />
+          </button> */}
