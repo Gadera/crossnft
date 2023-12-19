@@ -39,14 +39,14 @@ const Header = () => {
           </li>
           <li className="list">
             <button className="list_btn">
-              <Link to="/" className="list_link">
+              <Link to="/create_metadata" className="list_link">
                 Create NFT Metadata
               </Link>
             </button>
           </li>
           <li className="list">
             <button className="list_btn">
-              <Link to="/" className="list_link">
+              <Link to="/launch_app/transaction" className="list_link">
                 Mint Your NFT
               </Link>
             </button>
