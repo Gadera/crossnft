@@ -24,10 +24,15 @@
     "react-dom": "^18.2.0",
     "react-reveal": "^1.2.2",
     "react-router-dom": "^6.20.1",
+<<<<<<< HEAD
     "valtio": "^1.12.1",
     "canvas": "^2.8.0",
     "gif-encoder-2": "^1.0.5",
     "sha1": "^1.1.1"
+=======
+    "thirdweb-react-monorepo": "github:thirdweb-dev/react",
+    "valtio": "^1.12.1"
+>>>>>>> 7925bb9111a96c6cb475c25ab98dcc9ef2a874f3
   },
   "devDependencies": {
     "@types/react": "^18.2.37",
